@@ -4,11 +4,11 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
   <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
 </head>
-<body>
+<body class="page">
   <div class="info-block"><img class="info-block__img" src="./eisenhower-matrix.jpg"><a class="info-block__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
   </div>
   <div class="main">
-    <p class="main__add-item"><label class = "main__title" for="new-task">Add Item</label>
+    <p class="main__add-item"><label class="main__title main__add-item__label" for="new-task">Add Item</label>
     <div class="task-add">
       <input class="task-add__field" type="text">
       <button class="task-add__button">Add</button>
@@ -20,12 +20,12 @@
         <input class="task__checkbox" type="checkbox"><label class="task__label">Pay Bills</label>
         <input class="task__input" type="text" >
         <button class="task__button task__button--edit">Edit</button>
-        <button class="task__button task__button--delete"><img class="task__button--deleteImg" src="./remove.svg"></button></li>
+        <button class="task__button task__button--delete"><img class="task__button-delete__img" src="./remove.svg"></button></li>
       <li class="task task--edit-mode">
         <input class="task__checkbox" type="checkbox"><label class="task__label">Go Shopping</label>
         <input class="task__input" type="text" value="Go Shopping">
         <button class="task__button task__button--edit">Save</button>
-        <button class="task__button task__button--delete"><img class="task__button--deleteImg" src="./remove.svg"></button></li>
+        <button class="task__button task__button--delete"><img class="task__button-delete__img" src="./remove.svg"></button></li>
     </ul>
     <h3 class="main__title">Completed</h3>
     <ul class="task-list task-list--completed">
@@ -33,7 +33,7 @@
         <input class="task__checkbox" type="checkbox" checked><label class="task__label">See the Doctor</label>
         <input class="task__input" type="text">
         <button class="task__button task__button--edit">Edit</button>
-        <button class="task__button task__button--delete"><img class="task__button--deleteImg" src="./remove.svg"></button></li>
+        <button class="task__button task__button--delete"><img class="task__button-delete__img" src="./remove.svg"></button></li>
     </ul>
   </div>
   <script src="app.js"></script>
