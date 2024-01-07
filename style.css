@@ -27,7 +27,9 @@
   width: 500px;
   margin: 0 auto 0;
 }
-.task-add__field, .task__label, .task__input {
+.task-add__field,
+.task__label,
+.task__input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -43,10 +45,15 @@
 .task {
   list-style: none;
 }
-.task-add__field, .task__checkbox, .task__input, .task__button, .task-add__button{
+.task-add__field,
+.task__checkbox,
+.task__input,
+.task__button,
+.task-add__button{
   outline: none;
 }
-.task__button, .task-add__button {
+.task__button,
+.task-add__button {
   background: none;
   border: 0px;
   color: #888;
@@ -55,7 +62,8 @@
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-.task__button:hover, .task-add__button:hover {
+.task__button:hover,
+.task-add__button:hover {
   color: #3a3a3a;
 }
 /* Heading */
@@ -71,7 +79,8 @@
 .page__main{
   margin-top: 13px;
 }
-.task__input, .task-add__field {
+.task__input,
+.task-add__field {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -83,7 +92,8 @@
   font-family: Lato, sans-serif;
   color: #888;
 }
-.task__input:focus, .task-add__field:focus {
+.task__input:focus,
+.task-add__field:focus {
   color: #333;
 }
 
@@ -152,6 +162,8 @@
   display: none;
 }
 
-.task__checkbox, .task__input, .task-add__field {
+.task__checkbox,
+.task__input,
+.task-add__field {
   box-sizing: border-box;
 }
