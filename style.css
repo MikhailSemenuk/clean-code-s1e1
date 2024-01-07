@@ -131,10 +131,11 @@ button.task__button--delete img:hover {
 }
 
 /* Completed */
-.task-list--completed label {
+/* TODO: ask about appearance of the application from the author */
+/* .task-list--completed label {
   text-decoration: line-through;
   color: #888;
-}
+} */
 
 /* Edit Task */
 ul li input[type=text] {
